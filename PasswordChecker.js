@@ -1,4 +1,12 @@
-let password='fghj';
+let loggedInUser = "Hari";
+if(loggedInUser){
+    console.log("you are logged in");
+}
+else{
+    console.log("Please log in ");
+}
+
+let password='Hari1234';
 if(password.length >=6)
 {
     if(password.indexOf(' ') === -1)
